@@ -15,6 +15,8 @@ HTML file for the web interface where users can input feature values and get pre
 # Requirements:
 Python 3.x
 
+Jupyter
+
 Flask
 
 scikit-learn
