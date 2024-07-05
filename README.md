@@ -3,11 +3,3 @@ Flask is a lightweight WSGI web application framework. It is designed to make ge
 
 Flask offers suggestions, but doesn't enforce any dependencies or project layout. It is up to the developer to choose the tools and libraries they want to use. There are many extensions provided by the community that make adding new functionality easy.
 
-# A Simple Example
-from flask import Flask
-
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-    return "Hello, World!"
