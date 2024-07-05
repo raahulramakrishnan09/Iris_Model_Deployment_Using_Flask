@@ -12,7 +12,10 @@ Model_Deployment_Using_Flask.py: Python script containing Flask web application 
 IRIS.html: HTML file for the web interface where users can input feature values and get predictions.
 # Requirements:
 Python 3.x
+
 Flask
+
 scikit-learn
+
 numpy
 
