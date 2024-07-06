@@ -7,7 +7,7 @@ This repository demonstrates how to deploy a machine learning model using Flask 
 model.pkl:
 Pickled machine learning model trained on the Iris dataset.
 
-Model_Deployment_Using_Flask.py: 
+app.py: 
 Python script containing Flask web application code for model deployment.
 
 IRIS.html: 
