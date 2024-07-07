@@ -13,7 +13,7 @@ Python script containing Flask web application code for model deployment.
 ### IRIS.html:
 HTML file for the web interface where users can input feature values and get predictions.
 # Requirements:
--[Python] (https://github.com/python)
+- [Python](https://github.com/python)
 
 -Jupyter
 
