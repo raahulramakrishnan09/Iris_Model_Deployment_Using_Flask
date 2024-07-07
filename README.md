@@ -15,11 +15,11 @@ HTML file for the web interface where users can input feature values and get pre
 # Requirements:
 - [Python](https://github.com/python)
 
-- Jupyter
+- [Jupyter](https://github.com/jupyter)
 
-- Flask
+- [Flask](https://github.com/flask)
 
-- scikit-learn
+- [scikit-learn](https://github.com/scikit-learn)
 
-- numpy
+- [numpy](https://github.com/numpy)
 
