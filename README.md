@@ -10,25 +10,25 @@ Pickled machine learning model trained on the Iris dataset.
 ### app.py:
 Python script containing Flask web application code for model deployment.
 
-#### Import Libraries
+#### import Libraries:
 ```python
 from flask import Flask, request, jsonify, render_template
 import pickle
 import numpy as np
 ```
 
-#### Load the trained model
+#### load the trained model
 ```python
 model = pickle.load(open('model.pkl', 'rb'))
 iris_species = {0: 'setosa', 1: 'versicolor', 2: 'virginica'}
-'''
+```
 
-#### Initialize Flask application
+#### initialize Flask application
 ```python
 app = Flask(__name__)
 ```
 
-#### Define routes
+#### define routes
 ```python
 @app.route('/')
 def home():
@@ -45,7 +45,7 @@ def predict():
     return jsonify({'prediction': predicted_species})
 ```
 
-#### Run the application
+#### run the application
 ```python
 if __name__ == '__main__':
     app.run(debug=True)
