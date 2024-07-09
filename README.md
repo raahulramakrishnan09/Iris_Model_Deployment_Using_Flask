@@ -17,18 +17,18 @@ import pickle
 import numpy as np
 ```
 
-#### load the trained model
+#### load the trained model:
 ```python
 model = pickle.load(open('model.pkl', 'rb'))
 iris_species = {0: 'setosa', 1: 'versicolor', 2: 'virginica'}
 ```
 
-#### initialize Flask application
+#### initialize Flask application:
 ```python
 app = Flask(__name__)
 ```
 
-#### define routes
+#### define routes:
 ```python
 @app.route('/')
 def home():
@@ -45,7 +45,7 @@ def predict():
     return jsonify({'prediction': predicted_species})
 ```
 
-#### run the application
+#### run the application:
 ```python
 if __name__ == '__main__':
     app.run(debug=True)
