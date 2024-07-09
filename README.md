@@ -17,7 +17,26 @@ Python script containing Flask web application code for model deployment.
 HTML file for the web interface where users can input feature values and get predictions.
 ### IRIS.html:
 ```html
-
+<html>
+<head>
+	<title>ML Model Prediction</title>
+</head>
+<body bgcolor='red'>
+<h1>ML Model Prediction</h1>
+<form action="/predict" method="post">
+<label for="sepal_length">Sepal Length:</label>
+<input type="text" id="sepal_length" name="sepal_length"><br><br>
+<label for="sepal_width">Sepal Width:</label>
+<input type="text" id="sepal_width" name="sepal_width"><br><br>
+<label for="petal_length">Petal Length:</label>
+<input type="text" id="petal_length" name="petal_length"><br><br>
+<label for="petal_width">Petal Width:</label>
+<input type="text" id="petal_width" name="petal_width"><br><br>
+<input type="submit" value="Predict">
+<!-- <button type="submit">Predict</button> -->
+</form>
+</body>
+</html>
 ```
 # Requirements:
 - [Python](https://github.com/python)
