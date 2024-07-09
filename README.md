@@ -9,11 +9,20 @@ Pickled machine learning model trained on the Iris dataset.
 
 ### app.py:
 Python script containing Flask web application code for model deployment.
+```python
 
-### IRIS.html:
+```
+
+## Templates:
 HTML file for the web interface where users can input feature values and get predictions.
+### IRIS.html:
+```html
+
+```
 # Requirements:
 - [Python](https://github.com/python)
+
+- [HTML](https://github.com/html)
 
 - [Jupyter](https://github.com/jupyter)
 
@@ -23,3 +32,6 @@ HTML file for the web interface where users can input feature values and get pre
 
 - [numpy](https://github.com/numpy)
 
+## License
+
+Flask is completely free and open-source and licensed under the [BSD-3-Clause](https://flask.palletsprojects.com/en/2.3.x/license/) license.
